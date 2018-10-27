@@ -11,7 +11,9 @@ namespace PrograAvanzada.Northwind.Products.BL.Logica.Repositorio
         northwindEntities _miContexto = new northwindEntities();
         public IList<Model.Products> ListarProductosPorRangoDePrecio(decimal PrecioMinimo, decimal PrecioMaximo, bool IncluirDescontinuados)
         {
-            var elResultado = _miContexto.Products.Where(p => PrecioMinimo <= p.UnitPrice && p.UnitPrice <= PrecioMaximo && p.Discontinued == IncluirDescontinuados).ToList();
+            var elResultado = _miContexto.Products.Where(p => PrecioMinimo 
+            <= p.UnitPrice && p.UnitPrice <= PrecioMaximo && p.Discontinued
+            == IncluirDescontinuados).ToList();
 
 
             return elResultado;

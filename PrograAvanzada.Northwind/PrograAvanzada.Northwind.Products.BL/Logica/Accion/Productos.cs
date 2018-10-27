@@ -9,7 +9,10 @@ namespace PrograAvanzada.Northwind.Products.BL.Logica.Accion
     {
         public IList<Model.Products> ListarProductosPorRangoDePrecio(decimal PrecioMinimo, decimal PrecioMaximo, bool IncluirDescontinuados)
         {
-            throw new NotImplementedException();
+            var elRepositorio = new Repositorio.Productos();
+            var elResultado = elRepositorio.ListarProductosPorRangoDePrecio
+                (PrecioMinimo, PrecioMaximo, IncluirDescontinuados);
+            return elResultado;
 
         }
 
