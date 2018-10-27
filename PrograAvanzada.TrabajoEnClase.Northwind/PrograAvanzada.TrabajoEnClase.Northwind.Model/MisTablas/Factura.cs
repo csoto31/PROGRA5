@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrograAvanzada.TrabajoEnClase.Northwind.Model
 {
-    public class Class1
+    public class Factura
     {
     }
 }

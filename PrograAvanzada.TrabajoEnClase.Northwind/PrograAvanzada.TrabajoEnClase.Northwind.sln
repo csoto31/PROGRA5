@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrograAvanzadaWeb.TrabajoEnClase.Northwind", "PrograAvanzadaWeb.TrabajoEnClase.Northwind\PrograAvanzadaWeb.TrabajoEnClase.Northwind.csproj", "{9C79D34E-395E-4125-B16C-D5A7977F0264}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrograAvanzada.TrabajoEnClase.Northwind", "PrograAvanzadaWeb.TrabajoEnClase.Northwind\PrograAvanzada.TrabajoEnClase.Northwind.csproj", "{9C79D34E-395E-4125-B16C-D5A7977F0264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrograAvanzada.TrabajoEnClase.Northwind.Model", "PrograAvanzada.TrabajoEnClase.Northwind.Model\PrograAvanzada.TrabajoEnClase.Northwind.Model.csproj", "{DA587494-A131-42A4-B674-19F1FEBF032C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrograAvanzada.TrabajoEnClase.Northwind.BL", "PrograAvanzada.TrabajoEnClase.Northwind.BL\PrograAvanzada.TrabajoEnClase.Northwind.BL.csproj", "{D34FCBB7-40FA-417F-B1D9-FB7305A9AC3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9C79D34E-395E-4125-B16C-D5A7977F0264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C79D34E-395E-4125-B16C-D5A7977F0264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C79D34E-395E-4125-B16C-D5A7977F0264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA587494-A131-42A4-B674-19F1FEBF032C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA587494-A131-42A4-B674-19F1FEBF032C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA587494-A131-42A4-B674-19F1FEBF032C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA587494-A131-42A4-B674-19F1FEBF032C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34FCBB7-40FA-417F-B1D9-FB7305A9AC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34FCBB7-40FA-417F-B1D9-FB7305A9AC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34FCBB7-40FA-417F-B1D9-FB7305A9AC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34FCBB7-40FA-417F-B1D9-FB7305A9AC3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
